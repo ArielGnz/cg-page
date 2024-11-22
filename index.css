@@ -1,0 +1,109 @@
+
+body {
+    background-image: url('/src/assets/m3.jpg'); /* Ruta de la imagen */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat
+  }
+
+.burbuja{
+    
+    background: red;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    animation: burbujas 3s linear infinite;
+    
+}
+
+.burbuja:nth-child(1){
+    width: 2px;
+    height: 40px;
+    left: 5%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(2){
+    width: 2px;
+    height: 50px;
+    left: 15%;
+    animation-duration: 2s;
+}
+
+.burbuja:nth-child(3){
+    width: 3px;
+    height: 10px;
+    left: 25%;
+    animation-duration: 4s;
+    top:30px
+}
+
+.burbuja:nth-child(4){
+    width: 2px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 4s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(5){
+    width: 1px;
+    height: 70px;
+    left: 45%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(6){
+    width: 2px;
+    height: 80px;
+    left: 55%;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(7){
+    width: 2px;
+    height: 40px;
+    left: 65%;
+    animation-duration: 3s;
+}
+
+.burbuja:nth-child(8){
+    width: 2px;
+    height: 45px;
+    left: 75%;
+    animation-duration: 2s;
+    
+}
+
+.burbuja:nth-child(9){
+    width: 1.5px;
+    height: 40px;
+    left: 85%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(10){
+    width: 2px;
+    height: 50px;
+    left: 95%;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes burbujas{
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        top: 100vh;
+        opacity: 0;
+    }
+}
