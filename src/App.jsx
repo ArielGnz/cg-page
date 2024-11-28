@@ -1,4 +1,5 @@
-import { NavBar } from "./Header/NavBar"
+import { NavBar } from "./Header/NavBar";
+import { SobreMi } from "./SobreMi/SobreMi";
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="">
       <NavBar />
-      <h1 className="">Arrancamos</h1>
+      <SobreMi />
     </div>
   )
 }
