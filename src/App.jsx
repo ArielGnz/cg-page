@@ -1,5 +1,5 @@
 import { NavBar } from "./Header/NavBar";
-import { SobreMi } from "./SobreMi/SobreMi";
+import { Inicio } from "./Inicio/Inicio";
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="">
       <NavBar />
-      <SobreMi />
+      <Inicio />
     </div>
   )
 }
