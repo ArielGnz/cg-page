@@ -28,7 +28,7 @@ export const Inicio = () => {
         Especialista en Toco Ginecologia
       </h1>
 
-      <div className="overflow-hidden w-[900px] h-[50px] mt-10 relative">
+      <div className="overflow-hidden w-[700px] h-[50px] mt-10 relative">
         <div className="flex w-max animate-marquee">
           <div className="flex justify-center items-center mx-4">
             <img src={cinta} className="w-[30px] h-[30px] mx-2" />
@@ -52,52 +52,6 @@ export const Inicio = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="flex mt-10 font-semibold text-lg text-gray-600">
-        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-100">
-          <img src={cinta} className="w-[30px] h-[30px] mx-2" />
-          <p>Ginecologia y Obstetricia</p>
-        </div>
-        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-200">
-          <img src={medicina} className="w-[30px] h-[30px] mx-2" />
-          <p>Medicina Fetal y Genetica</p>
-        </div>
-        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-300">
-          <img src={eco} className="w-[30px] h-[30px] mx-2" />
-          <p>Ecografia</p>
-        </div>
-        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-400">
-          <img src={corazon} className="w-[30px] h-[30px] mx-2" />
-          <p>Cardiologia Fetal</p>
-        </div>
-        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-500">
-          <img src={tijera} className="w-[30px] h-[30px] mx-2" />
-          <p>Anatomia Fetal</p>
-        </div>
-      </div> */}
-
-      {/* <div className="flex mt-10 font-semibold text-lg text-gray-600">
-        <div className="flex justify-center items-center mx-4">
-          <img src={cinta} className="w-[30px] h-[30px] mx-2" />
-          <p>Ginecologia y Obstetricia</p>
-        </div>
-        <div className="flex justify-center items-center mx-4">
-          <img src={medicina} className="w-[30px] h-[30px] mx-2" />
-          <p>Medicina Fetal y Genetica</p>
-        </div>
-        <div className="flex justify-center items-center mx-4">
-          <img src={eco} className="w-[30px] h-[30px] mx-2" />
-          <p>Ecografia</p>
-        </div>
-        <div className="flex justify-center items-center mx-4">
-          <img src={corazon} className="w-[30px] h-[30px] mx-2" />
-          <p>Cardiologia Fetal</p>
-        </div>
-        <div className="flex justify-center items-center mx-4">
-          <img src={tijera} className="w-[30px] h-[30px] mx-2" />
-          <p>Anatomia Fetal</p>
-        </div>
-      </div> */}
 
       <div className="flex mt-10">
         <div className="relative inline-block">
