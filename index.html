@@ -1,12 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            keyframes: {
+              marquee: {
+                "0%": { transform: "translateX(900px)" },
+                "100%": { transform: "translateX(-100%)" },
+              },
+            },
+            animation: {
+              marquee: "marquee 35s linear infinite",
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
     <title>cg-page</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body class="burbujas">
     <div class="burbuja"></div>

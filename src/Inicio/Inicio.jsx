@@ -25,10 +25,58 @@ export const Inicio = () => {
         Carla Gonzalez
       </h1>
       <h1 className="text-blue-500 text-5xl font-bold mt-8 text-center">
-       Especialista en Toco Ginecologia
+        Especialista en Toco Ginecologia
       </h1>
 
-      <div className="flex mt-10 font-semibold text-lg text-gray-600">
+      <div className="overflow-hidden w-[900px] h-[50px] mt-10 relative">
+        <div className="flex w-max animate-marquee">
+          <div className="flex justify-center items-center mx-4">
+            <img src={cinta} className="w-[30px] h-[30px] mx-2" />
+            <p>Ginecología y Obstetricia</p>
+          </div>
+          <div className="flex justify-center items-center mx-4">
+            <img src={medicina} className="w-[30px] h-[30px] mx-2" />
+            <p>Medicina Fetal y Genética</p>
+          </div>
+          <div className="flex justify-center items-center mx-4">
+            <img src={eco} className="w-[30px] h-[30px] mx-2" />
+            <p>Ecografía</p>
+          </div>
+          <div className="flex justify-center items-center mx-4">
+            <img src={corazon} className="w-[30px] h-[30px] mx-2" />
+            <p>Cardiología Fetal</p>
+          </div>
+          <div className="flex justify-center items-center mx-4">
+            <img src={tijera} className="w-[30px] h-[30px] mx-2" />
+            <p>Anatomía Fetal</p>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="flex mt-10 font-semibold text-lg text-gray-600">
+        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-100">
+          <img src={cinta} className="w-[30px] h-[30px] mx-2" />
+          <p>Ginecologia y Obstetricia</p>
+        </div>
+        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-200">
+          <img src={medicina} className="w-[30px] h-[30px] mx-2" />
+          <p>Medicina Fetal y Genetica</p>
+        </div>
+        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-300">
+          <img src={eco} className="w-[30px] h-[30px] mx-2" />
+          <p>Ecografia</p>
+        </div>
+        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-400">
+          <img src={corazon} className="w-[30px] h-[30px] mx-2" />
+          <p>Cardiologia Fetal</p>
+        </div>
+        <div className="flex justify-center items-center mx-4 animate-fade-in-up delay-500">
+          <img src={tijera} className="w-[30px] h-[30px] mx-2" />
+          <p>Anatomia Fetal</p>
+        </div>
+      </div> */}
+
+      {/* <div className="flex mt-10 font-semibold text-lg text-gray-600">
         <div className="flex justify-center items-center mx-4">
           <img src={cinta} className="w-[30px] h-[30px] mx-2" />
           <p>Ginecologia y Obstetricia</p>
@@ -49,7 +97,7 @@ export const Inicio = () => {
           <img src={tijera} className="w-[30px] h-[30px] mx-2" />
           <p>Anatomia Fetal</p>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex mt-10">
         <div className="relative inline-block">
