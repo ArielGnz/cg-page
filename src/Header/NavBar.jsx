@@ -13,7 +13,7 @@ export const NavBar = () => {
         <img src={logo} alt="" className="w-[140px]" />
       </div>
 
-      <div className="">
+      <div className="hidden lg:flex">
         <ul className="flex justify-center items-center">
           <li className="mx-10">Inicio</li>
           <li className="flex flex-row mx-10">Sobre Mi</li>
