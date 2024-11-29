@@ -14,11 +14,11 @@ export const NavBar = () => {
       </div>
 
       <div className="hidden lg:flex">
-        <ul className="flex justify-center items-center">
-          <li className="mx-10">Inicio</li>
-          <li className="flex flex-row mx-10">Sobre Mi</li>
-          <li className="mx-10">Experiencia</li>
-          <li className="mx-10">Contacto</li>
+        <ul className="flex justify-center items-center font-semibold text-gray-500 text-lg cursor-pointer">
+          <li className="mx-10 hover:text-gray-700">Inicio</li>
+          <li className="flex flex-row mx-10 hover:text-gray-700">Sobre Mi</li>
+          <li className="mx-10 hover:text-gray-700">Experiencia</li>
+          <li className="mx-10 hover:text-gray-700">Contacto</li>
         </ul>
       </div>
 
