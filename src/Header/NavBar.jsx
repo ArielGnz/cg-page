@@ -1,12 +1,9 @@
-//import { useState } from "react";
 import React from "react";
 import logo from "../assets/Dr.png";
 import argentina from "../assets/argentina.png";
 import brasil from "../assets/brasil.png";
 
 export const NavBar = () => {
-  //const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <nav className="bg-white shadow-lg w-full flex justify-between items-center mx-auto py-4 md:px-8 ">
       <div>
