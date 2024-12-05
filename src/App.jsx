@@ -1,5 +1,7 @@
-import { NavBar } from "./Header/NavBar";
-import { Inicio } from "./Inicio/Inicio";
+//import { NavBar } from "./Header/NavBar";
+import { Inicio } from "./components/Inicio/Inicio";
+import { NavBar } from "./components/Header/NavBar";
+import { SobreMi } from "./components/SobreMi.jsx/SobreMi";
 
 
 function App() {
@@ -8,6 +10,7 @@ function App() {
     <div className="">
       <NavBar />
       <Inicio />
+      <SobreMi />
     </div>
   )
 }

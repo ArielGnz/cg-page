@@ -1,9 +1,9 @@
 import React from "react";
-import cinta from "../assets/cita-medica.png";
-import tijera from "../assets/tijera.png";
-import medicina from "../assets/medicina.png";
-import eco from "../assets/eco.png";
-import corazon from "../assets/corazon.png";
+import cinta from "../../assets/cita-medica.png";
+import tijera from "../../assets/tijera.png";
+import medicina from "../../assets/medicina.png";
+import eco from "../../assets/eco.png";
+import corazon from "../../assets/corazon.png";
 import { FiDownload } from "react-icons/fi";
 
 export const Inicio = () => {

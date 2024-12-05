@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../assets/Dr.png";
-import argentina from "../assets/argentina.png";
-import brasil from "../assets/brasil.png";
+import logo from "../../assets/Dr.png";
+import argentina from "../../assets/argentina.png";
+import brasil from "../../assets/brasil.png";
+
 
 export const NavBar = () => {
   return (
