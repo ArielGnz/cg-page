@@ -4,7 +4,7 @@ import images from "../../assets/images.jpg";
 export const SobreMi = () => {
   return (
     <div className="flex flex-col mt-10">
-      <div className="hidden md:flex justify-center text-xl font-semibold text-gray-600 ">
+      <div className="hidden md:flex justify-center text-2xl font-semibold text-gray-600 ">
         <div className="w-[120px] mx-12 border-b-4 hover:text-sky-500 hover:border-sky-500 cursor-pointer">
           <span className="flex justify-center">Sobre Mi</span>
         </div>
@@ -13,11 +13,18 @@ export const SobreMi = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-[90%] flex justify-center my-2 w-full md:w-[90%]">
-        <div className="w-1/3">
-          <img src={images} alt="" />
+      <div className="w-full md:w-[55%] flex justify-center mx-auto my-10 border-2">
+        <div className="w-1/3 mx-0 border-2">
+          <img src={images} className="mx-auto" />
         </div>
-        <div className="hidden border-2 md:w-2/3">info</div>
+        <div className="hidden md:block md:border-4 border-red-500 md:w-2/3">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            asperiores distinctio suscipit cupiditate blanditiis consequuntur
+            eius odit voluptas! Earum consequuntur a aspernatur delectus debitis
+            laboriosam inventore dolorem, optio facere quam!
+          </p>
+        </div>
       </div>
 
       <div>
