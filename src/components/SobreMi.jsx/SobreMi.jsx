@@ -13,12 +13,12 @@ export const SobreMi = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-[55%] flex justify-center mx-auto my-10 border-2">
-        <div className="w-1/3 mx-0 border-2">
+      <div className="w-full md:w-[55%] h-[400px] flex justify-center items-center mx-auto my-10">
+        <div className="w-1/3">
           <img src={images} className="mx-auto" />
         </div>
-        <div className="hidden md:block md:border-4 border-red-500 md:w-2/3">
-          <p>
+        <div className="hidden md:block md:w-2/3">
+          <p className="mx-2 font-semibold text-gray-600 text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
             asperiores distinctio suscipit cupiditate blanditiis consequuntur
             eius odit voluptas! Earum consequuntur a aspernatur delectus debitis
