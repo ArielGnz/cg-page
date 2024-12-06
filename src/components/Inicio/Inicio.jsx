@@ -18,7 +18,7 @@ export const Inicio = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="flex flex-col justify-center items-center h-screen border-b-4">
       <h2 className="text-2xl font-semibold text-gray-500 ">Bienvenido/a</h2>
       <h2 className="text-2xl font-semibold text-gray-500 ">soy</h2>
       <h1 className="text-8xl font-semibold mt-8 text-center text-gray-700">
