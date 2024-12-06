@@ -21,7 +21,14 @@ export const SobreMi = () => {
           <span className="border-b-4 mx-4">Sobre MI</span>
           <span className="border-b-4 mx-4">Experiencia</span>
         </div>
-        <div></div>
+        <div className="border-4 mx-2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            eligendi quaerat architecto? Nulla laudantium inventore similique.
+            Dolorem quam veniam nisi, corrupti officia fuga itaque vitae aliquam
+            culpa, exercitationem, aliquid perspiciatis!
+          </p>
+        </div>
       </div>
     </div>
   );
