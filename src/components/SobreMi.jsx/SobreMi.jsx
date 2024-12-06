@@ -20,7 +20,7 @@ export const SobreMi = () => {
         <div className="md:w-1/3">
           <img src={images} className="mx-auto h-[380px] w-[380px]" />
         </div>
-        <div className="hidden md:block md:w-2/3 border-4">
+        <div className="hidden md:block md:w-2/3 ">
           <p className="mx-2 font-semibold text-gray-600 text-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
             asperiores distinctio suscipit cupiditate blanditiis consequuntur
@@ -42,7 +42,7 @@ export const SobreMi = () => {
             <span className="flex justify-center">Especialidades</span>
           </div>
         </div>
-        <div className="border-4 mx-2">
+        <div className="mx-2">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
             eligendi quaerat architecto? Nulla laudantium inventore similique.
