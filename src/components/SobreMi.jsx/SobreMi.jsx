@@ -42,8 +42,8 @@ export const SobreMi = () => {
             <span className="flex justify-center">Especialidades</span>
           </div>
         </div>
-        <div className="mx-2">
-          <p>
+        <div className="mx-2 md:hidden">
+          <p className="font-semibold text-gray-600 text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
             eligendi quaerat architecto? Nulla laudantium inventore similique.
             Dolorem quam veniam nisi, corrupti officia fuga itaque vitae aliquam
