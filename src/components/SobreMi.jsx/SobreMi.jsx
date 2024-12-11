@@ -3,8 +3,8 @@ import images from "../../assets/images.jpg";
 
 export const SobreMi = () => {
   return (
-    <div className="flex flex-col mt-6">
-      <div className="hidden md:flex justify-center text-2xl font-semibold text-gray-600 ">
+    <div className="flex flex-col bg-red-900">
+      <div className="hidden mt-10 md:flex justify-center text-2xl font-semibold text-gray-600 ">
         <div className="w-[120px] mx-12 border-b-4 hover:text-sky-500 hover:border-sky-500 cursor-pointer">
           <span className="flex justify-center">Sobre Mi</span>
         </div>
