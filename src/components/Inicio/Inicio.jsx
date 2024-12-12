@@ -5,7 +5,7 @@ import medicina from "../../assets/medicina.png";
 import eco from "../../assets/eco.png";
 import corazon from "../../assets/corazon.png";
 import { FiDownload } from "react-icons/fi";
-import fondo from "../../assets/fondo.png"
+import fondo from "../../assets/fondo.png";
 
 export const Inicio = () => {
   const handleDownload1 = () => {
