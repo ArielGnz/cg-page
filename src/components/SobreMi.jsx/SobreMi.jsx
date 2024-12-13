@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import images from "../../assets/images.jpg";
 
+
 export const SobreMi = () => {
+  
+  const [view, setView] = useState("");
+  
+  const handleView = (option) => {
+    setView(option);
+  };
+
   return (
     <div className="flex flex-col bg-red-900">
       <div className="hidden mt-10 md:flex justify-center text-2xl font-semibold text-gray-600 ">
