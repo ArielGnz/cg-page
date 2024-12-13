@@ -4,7 +4,7 @@ import images from "../../assets/images.jpg";
 
 export const SobreMi = () => {
   
-  const [view, setView] = useState("");
+  const [view, setView] = useState("sobreMi");
   
   const handleView = (option) => {
     setView(option);
@@ -14,13 +14,13 @@ export const SobreMi = () => {
     <div className="flex flex-col bg-red-900">
       <div className="hidden mt-10 md:flex justify-center text-2xl font-semibold text-gray-600 ">
         <div className="w-[120px] mx-12 border-b-4 hover:text-sky-500 hover:border-sky-500 cursor-pointer">
-          <span className="flex justify-center">Sobre Mi</span>
+          <span className="flex justify-center" onClick={() => handleView("sobreMi") }>Sobre Mi</span>
         </div>
         <div className="w-[150px] mx-12 border-b-4 hover:text-sky-500 hover:border-sky-500 cursor-pointer">
-          <span className="flex justify-center">Experiencia</span>
+          <span className="flex justify-center" onClick={() => handleView("experiencia")} >Experiencia</span>
         </div>
         <div className="w-[180px] mx-12 border-b-4 hover:text-sky-500 hover:border-sky-500 cursor-pointer">
-          <span className="flex justify-center">Especialidades</span>
+          <span className="flex justify-center" onClick={() => handleView("especialidades")} >Especialidades</span>
         </div>
       </div>
 
