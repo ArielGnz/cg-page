@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import images from "../../assets/images.jpg";
+import { Experiencia } from "./Experiencia";
 
 export const SobreMi = () => {
   const [view, setView] = useState("sobreMi");
@@ -42,20 +43,10 @@ export const SobreMi = () => {
           <img src={images} className="mx-auto h-[380px] w-[380px]" />
         </div>
         <div className="hidden md:block md:w-2/3 ">
-          <div>
-            <p className="mx-2 font-semibold text-gray-600 text-2xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-              asperiores distinctio suscipit cupiditate blanditiis consequuntur
-              eius odit voluptas! Earum consequuntur a aspernatur delectus
-              debitis laboriosam inventore dolorem, optio facere quam!
-            </p>
+          <div className="flex justify-center">
+            {view === "experiencia" && (<Experiencia />) }
           </div>
-          <p className="mx-2 font-semibold text-gray-600 text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            asperiores distinctio suscipit cupiditate blanditiis consequuntur
-            eius odit voluptas! Earum consequuntur a aspernatur delectus debitis
-            laboriosam inventore dolorem, optio facere quam!
-          </p>
+          
         </div>
       </div>
 
